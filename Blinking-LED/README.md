@@ -1,0 +1,27 @@
+Day 1 Blinking LED
+
+ What it does
+A red LED blinks on and off every 500ms, controlled by an Arduino UNO.
+
+ Components
+- Arduino UNO
+- Red LED
+- 220Ω resistor
+- Breadboard
+- Jumper wires
+
+ Circuit
+5V from Arduino → 220Ω resistor → LED (+) → LED (-) → GND
+
+## How I calculated the resistor value
+- Supply voltage: 5V
+- LED forward voltage (Vf): 2V
+- Target current: 20mA
+- R = (5 - 2) / 0.02 = 150Ω → rounded up to 220Ω for safety
+
+## What I learned
+- How to calculate resistor values using Ohm's law
+- How forward voltage works in LEDs
+- How to simulate a circuit in LTspice before building
+- Basic Arduino C++ code structure (setup/loop)
+- How to wire a breadboard
