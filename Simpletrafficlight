@@ -1,2 +1,0 @@
-Built a 3-LED traffic light sequence using green, yellow and red LEDs, each controlled independently with their own resistors. The loop cycles through each color with different delays to simulate a real traffic light.
-Debugging: Spent a good chunk of time troubleshooting one LED that wasn't lighting up. Systematically ruled out the LED itself, the Arduino pins, the resistor and the breadboard before finally identifying two faulty jumper wires as the culprit. Lesson learned — always suspect the wire
