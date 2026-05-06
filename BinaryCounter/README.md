@@ -1,0 +1,1 @@
+Learned how binary numbers work and built a 4-bit LED binary counter that counts from 0 to 15. Each LED represents one bit, so together they display the binary equivalent of each number. Also started practicing good variable naming habits in my code instead of hardcoding values directly.
