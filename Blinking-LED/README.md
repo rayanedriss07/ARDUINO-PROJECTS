@@ -1,4 +1,4 @@
-Day 1 Blinking LED
+
 
  What it does
 A red LED blinks on and off every 500ms, controlled by an Arduino UNO.
