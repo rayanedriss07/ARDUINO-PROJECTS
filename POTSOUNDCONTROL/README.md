@@ -1,0 +1,2 @@
+Used a potentiometer to control the pitch of a passive buzzer in real time. Turning the knob changes the delay between the buzzer switching on and off, which changes the frequency, which changes the pitch. High voltage = slow switching = low pitch. Low voltage = fast switching = high pitch.
+The potentiometer maps 0-1023 to a delay range of 60 to 10,000 microseconds using a linear equation. First time working with delayMicroseconds and a passive buzzer.
